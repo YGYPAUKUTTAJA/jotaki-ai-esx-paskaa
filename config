@@ -1,0 +1,22 @@
+Config = {}
+
+Config.Dispatch = 'ox'  -- Käytetään Ox Libiä ilmoituksiin
+
+Config.Robbery = {
+    ['toimisto'] = {
+        position = vec3(-1057.3613, -241.2884, 43.0211),
+        reward = math.random(5000, 35000),
+        name = 'Toimisto',
+        secondsRemaining = 200,
+        lastRobbed = 0,
+        policeRequired = 1,
+        timerBeforeNewRob = 300,
+        maxDistance = 2,
+        blip = 521,
+        blipScale = 0.8,
+        blipColor = 58,
+        notifyTarget = 'others',
+        giveBlackMoney = false
+    },
+    -- Lisää muita paikkoja täällä...
+}
